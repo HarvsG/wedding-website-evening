@@ -194,13 +194,13 @@ $(document).ready(function () {
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Nov 10, 2023 01:00'),
+            end: new Date('Nov 19, 2023 01:00'),
 
             // Event Address
             address: 'Chelsea Old Church, 64 Cheyne Walk, London SW3 5LT',
 
             // Event Description
-            description: "We can't wait to see you on our big day. For any queries or issues, please contact George on +447817164491."
+            description: "We can't wait to see you on our big day. For any queries or issues, please contact George on 07817164491."
         }
     });
 
