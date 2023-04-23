@@ -43,13 +43,13 @@
     <section class="navigation">
         <header>
             <div class="header-content">
-                <div class="logo"><a href="#"><img src="img/logo.png" alt="Logo"></a></div>
+                <div class="logo"><a href="#"><img src="img/car.png" alt="Logo"></a></div>
                 <div class="header-nav">
                     <nav>
                         <ul class="primary-nav">
                             <!--TODO-->
                             <li><a href="#intro">Where</a></li>
-                            <li><a href="#events">Timings</a></li>
+                            <li><a href="#events">Events</a></li>
                             <!--<li><a href="#instagram">Instagram</a></li>
                             <li><a href="#eng-pics">Engagement</a></li>-->
                             <!-- <li class="hidden-sm hidden-xs"><a href="#video-bg">Glimpse of the city</a></li> -->
@@ -104,11 +104,6 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <h3 class="header">Where</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/church.jpg" class="wp1"></div>
-            <div class="col-md-6">
                 <p>
                     Ceremony: Chelsea Old Church
                 </p>
@@ -116,7 +111,6 @@
                     Reception: Westminster Boating Base
                 </p>
             </div>
-            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/wbb.jpg" class="wp2"></div>
         </div>
         <!-- <div class="row">
             <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/then.png" class="wp8"></div>
@@ -129,36 +123,55 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h3 class="header">Events</h3>
+                <h3 class="header">Order of the day</h3>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
                 <div class="wp3">
-                    <p><strong>Chelsea Old Church</strong></p>
-
+                    <p>
+                    <strong>Chelsea Old Church</strong><br>
+                    64 Cheyne Walk, London, SW3 5LT
+                    </p>
+                    <div class="container"><div class="col-md-3 hidden-sm hidden-xs"><img src="img/church.png" class="wp1"></div></div>
                     <h5>Ceremony <span class="time">2.30pm - 3.30pm</span></h5>
-                    <p>The ceremony will be hosted at Chelsea Old Church, 64 Cheyne Walk, London SW3 5LT. Please arrive in good time. There are plenty of nearby pubs and resturants if you want to have something to eat beforehand.</p>
+                    <p> Please arrive in good time. There are plenty of nearby pubs and resturants if you want to have something to eat beforehand.</p>
                 </div>
                 <div class="wp5">
                     <h5>Transport <span class="time">3.45pm</span></h5>
                     <p>We have organised transport by bus for everyone from the Church to the venue, it should take less than 10 minutes, or it is a 35 minute walk if you prefer.</p>
+                    <div class="container"><div class="col-md-3 hidden-sm hidden-xs"><img src="img/bus.png" class="wp1"></div></div>
                 </div>
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
                 <div class="wp4">
-                    <p><strong>Westminster Boating Base</strong></p>
-
+                    <p><strong>Westminster Boating Base</strong><br>
+                    136 Grosvenor Rd, Pimlico, London, SW1V 3JY
+                    </p>
+                    <div class="container"><div class="col-md-3 hidden-sm hidden-xs"><img src="img/wbb.png" class="wp2"></div></div>
                     <h5>Reception <span class="time">4pm</span></h5>
                     <p>
                         The first drinks and canapés will be served upon arrival.
                     </p>
                 </div>
                 <div class="wp6">
-                    <h5>Dinner and Dancing <span class="time">5pm - 1am</span></h5>
+                    <h5>Dinner <span class="time">5.30pm</span></h5>
                     <p>
-                        A three course meal will start at 5pm. Carriages at 12.30am
+                        A three course meal will start at 5.30pm.
                     </p>
+                </div>
+                <div class="wp6">
+                    <h5>Dancing <span class="time">8pm</span></h5>
+                    <p>
+                        Put on your dancing shoes
+                    </p>
+                </div>
+                <div class="wp6">
+                    <h5>Carriages <span class="time">12.45am</span></h5>
+                    <p>
+                        The newlyweds will depart at 12.30am.
+                    </p>
+                    <div class="container"><div class="col-md-3 hidden-sm hidden-xs"><img src="img/car.png" class="wp1"></div></div>
                 </div>
             </div>
         </div>
@@ -369,7 +382,7 @@
                             <div class="form-input-group">
                                 <i class="fa fa-users"></i><input type="number" name="extras" class="" min="0"
                                                                   max="4"
-                                                                  placeholder="Dietry Requirements"
+                                                                  placeholder="Dietry requirements"
                                                                   required>
                             </div>
                         </div>
@@ -417,22 +430,5 @@
 <!-- TODO configure a google maps API key -->
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlPw3GQYI3faa_9mRE6plWuM7xNEmrwH0&callback=initMap"></script>
-<!-- Google Analytics
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-46465113-4', 'auto');
-    ga('send', 'pageview');
-</script>
- -->
 </body>
 </html>

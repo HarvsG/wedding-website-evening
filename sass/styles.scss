@@ -4,10 +4,10 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
 // Imports
 //@import "compass";
-@import "partials/typography";
-@import "partials/buttons";
-@import "partials/colors";
-@import "partials/layout";
+@import "partials/_typography";
+@import "partials/_buttons";
+@import "partials/_colors";
+@import "partials/_layout";
 
 /* ==========================================================================
 Global Styles
@@ -163,7 +163,8 @@ Animations
 Waypoinsts
 ========================================================================== */
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6, .wp7, .wp8, .wp9 {
-  visibility: hidden
+  visibility: hidden;
+  max-width: 100%
 }
 .wp8, .wp9 {
   -webkit-animation-delay: 0.3s;
