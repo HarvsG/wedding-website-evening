@@ -37,3 +37,23 @@ Firstly, a big thanks 🙏🏻 for the overwhelming response on [HackerNews](htt
 <a href="https://www.buymeacoffee.com/rampatra" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 _P.S. For any queries or concerns, you can reach out to me on [Twitter](https://twitter.com/ram__patra). I'll try my best to help 🙏._
+
+TODO:
+- [ ] Date directly under G&A in main banner
+- [ ] Change colour of banner when you scroll down
+- [ ] update images with mum's edited ones
+- [ ] Main banner to be made a flat colour so you can see the wording? Otherwise picture with more blank space
+- [ ] Remove section with when and where/move down the page
+- [ ] In the order of the day section, can we link the addresses so they can open in google maps if needed? 
+- [ ] Dress to be own section rather than pop up
+- [ ] Font and text colour alignment with invitation where possible
+- [x] Remove dessert option from RSVP section, consider adding song suggestion?
+- [x] Switch name and email in RSVP and switch invitation code and dietaries
+- [ ] Add section as placeholder for gifting, which will include wording and gift registry link
+- [ ] Resize images only once all text in that section is finalised (otherwise we'll have to do it again)
+- [ ] If you have time, then we could add some scrolling images and a count down, but these are nice to haves not essential!!
+- [ ] Test form submission with added fields
+- [ ] Link for email RSVP just in case
+- [ ] Finalise security / captcha
+- [ ] Internal /external testing
+- [ ] Home-assistant, heartbeat monitoring
