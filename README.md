@@ -39,10 +39,10 @@ Firstly, a big thanks 🙏🏻 for the overwhelming response on [HackerNews](htt
 _P.S. For any queries or concerns, you can reach out to me on [Twitter](https://twitter.com/ram__patra). I'll try my best to help 🙏._
 
 TODO:
-- [ ] Date directly under G&A in main banner
-- [ ] Change colour of banner when you scroll down
-- [ ] update images with mum's edited ones
-- [ ] Main banner to be made a flat colour so you can see the wording? Otherwise picture with more blank space
+- [x] Date directly under G&A in main banner
+- [x] Change colour of banner when you scroll down
+- [ ] Update images with mum's bus and church
+- [x] Main banner to be made a flat colour so you can see the wording? Otherwise picture with more blank space
 - [ ] Remove section with when and where/move down the page
 - [ ] In the order of the day section, can we link the addresses so they can open in google maps if needed? 
 - [ ] Dress to be own section rather than pop up
