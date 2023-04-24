@@ -56,7 +56,7 @@ TODO:
 - [ ] Test form submission with added fields
 - [x] Link for email RSVP just in case
 - [x] Add full food descriptions
-- [ ] 
 - [ ] Finalise security / captcha
 - [ ] Internal /external testing
+- [ ] Display pictures on mobile
 - [ ] Home-assistant, heartbeat monitoring
