@@ -57,6 +57,7 @@ TODO:
 - [ ] Test form submission with added fields
 - [x] Link for email RSVP just in case
 - [x] Add full food descriptions
+- [ ] Disable mandatory fields if not attending
 - [ ] Finalise security / captcha
 - [ ] Internal /external testing
 - [x] Display pictures on mobile
