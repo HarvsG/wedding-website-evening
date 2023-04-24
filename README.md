@@ -58,5 +58,5 @@ TODO:
 - [x] Add full food descriptions
 - [ ] Finalise security / captcha
 - [ ] Internal /external testing
-- [ ] Display pictures on mobile
+- [x] Display pictures on mobile
 - [ ] Home-assistant, heartbeat monitoring
