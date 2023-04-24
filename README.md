@@ -50,6 +50,7 @@ TODO:
 - [x] Remove dessert option from RSVP section, consider adding song suggestion?
 - [x] Switch name and email in RSVP and switch invitation code and dietaries
 - [ ] Add will/won't be able to attend
+- [ ] Use correct icons for form boxes
 - [ ] Add section as placeholder for gifting, which will include wording and gift registry link
 - [ ] Resize images only once all text in that section is finalised (otherwise we'll have to do it again)
 - [ ] If you have time, then we could add some scrolling images and a count down, but these are nice to haves not essential!!
