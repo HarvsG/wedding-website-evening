@@ -59,4 +59,5 @@ TODO:
 - [ ] Finalise security / captcha
 - [ ] Internal /external testing
 - [x] Display pictures on mobile
+- [ ] Migrate to harveybarkshire.com
 - [ ] Home-assistant, heartbeat monitoring
