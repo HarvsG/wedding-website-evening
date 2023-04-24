@@ -43,9 +43,9 @@ TODO:
 - [x] Change colour of banner when you scroll down
 - [ ] Update images with mum's bus and church
 - [x] Main banner to be made a flat colour so you can see the wording? Otherwise picture with more blank space
-- [ ] Remove section with when and where/move down the page
+- [x] Remove section with when and where/move down the page
 - [ ] In the order of the day section, can we link the addresses so they can open in google maps if needed? 
-- [ ] Dress to be own section rather than pop up
+- [x] Dress to be own section rather than pop up
 - [ ] Font and text colour alignment with invitation where possible
 - [x] Remove dessert option from RSVP section, consider adding song suggestion?
 - [x] Switch name and email in RSVP and switch invitation code and dietaries
@@ -54,7 +54,9 @@ TODO:
 - [ ] Resize images only once all text in that section is finalised (otherwise we'll have to do it again)
 - [ ] If you have time, then we could add some scrolling images and a count down, but these are nice to haves not essential!!
 - [ ] Test form submission with added fields
-- [ ] Link for email RSVP just in case
+- [x] Link for email RSVP just in case
+- [x] Add full food descriptions
+- [ ] 
 - [ ] Finalise security / captcha
 - [ ] Internal /external testing
 - [ ] Home-assistant, heartbeat monitoring
