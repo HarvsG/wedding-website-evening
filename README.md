@@ -63,5 +63,5 @@ TODO:
 - [ ] Internal /external testing
 - [x] Display pictures on mobile
 - [x] Migrate to harveybarkshire.com
-- [ ] Get google maps working, remove uber link
+- [x] Get google maps working, remove uber link
 - [ ] Home-assistant, heartbeat monitoring
