@@ -260,21 +260,24 @@ function updateForm() {
 
 // Google map
 function initMap() {
+    var center = {lat: 51.48570872080128, lng: -0.14978079961560148};
     var location = {lat: 51.483034, lng: -0.171314};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
-        center: location,
+        center: center,
         scrollwheel: false
     });
 
-    var marker = new google.maps.Marker({
+    new google.maps.Marker({
         position: location,
-        map: map
+        map: map,
+        title: "Ceremony"
     });
     var location2 = {lat: 51.485372, lng: -0.134746};
-    var marker2 = new google.maps.Marker({
+    new google.maps.Marker({
         position: location2,
-        map: map
+        map: map,
+        title: "Reception"
     });
 }
 
