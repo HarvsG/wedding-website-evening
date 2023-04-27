@@ -51,10 +51,10 @@ TODO:
 - [x] Switch name and email in RSVP and switch invitation code and dietaries
 - [x] Add will/won't be able to attend
 - [x] Use correct icons for form boxes
-- [ ] Add section as placeholder for gifting, which will include wording and gift registry link
+- [x] Add section as placeholder for gifting, which will include wording and gift registry link
 - [ ] Resize images only once all text in that section is finalised (otherwise we'll have to do it again)
 - [ ] If you have time, then we could add some scrolling images and a count down, but these are nice to haves not essential!!
-- [ ] Test form submission with added fields
+- [x] Test form submission with added fields
 - [x] Link for email RSVP just in case
 - [x] Add full food descriptions
 - [ ] Disable mandatory fields if not attending
