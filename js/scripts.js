@@ -215,8 +215,9 @@ $(document).ready(function () {
         $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
 
         // TODO - Chnage invitation code, will need to be changed in the google spreadsheet script as well
-        if (MD5($('#invite_code').val()) !== 'b0e53b10c1f55ede516b240036b88f40'
-            && MD5($('#invite_code').val()) !== '2ac7f43695eb0479d5846bb38eec59cc') {
+        const hash = MD5($('#invite_code').val()+'sldfjgsdfgsg');
+        if (hash !== '02d64d97155b0bd17bcf99ef103bfc31'
+            && hash !== '369c4c1625e20503f1682119c3edc4b8') {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
         } else {
             $.post('https://script.google.com/macros/s/AKfycbx2oMuESk5QIHwSqRMzfgi6802LVeG6LlPE9RlTWghqZPnHOqHQzf2Yco_x_e4EDUja/exec', data)
