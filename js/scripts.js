@@ -226,7 +226,11 @@ $(document).ready(function () {
                         $('#alert-wrapper').html(alert_markup('danger', data.message));
                     } else {
                         $('#alert-wrapper').html('');
-                        $('#rsvp-modal').modal('show');
+                        if(document.querySelector('select[name="attend"]').value ==='attending'){
+                            $('#rsvp-modal').modal('show');
+                        } else {
+                            $('#rsvp-modal-not-attending').modal('show');
+                        }
                     }
                 })
                 .fail(function (data) {
@@ -238,6 +242,19 @@ $(document).ready(function () {
 
 });
 
+function updateForm() {
+    // Get the value of the "attend" dropdown
+    const attendValue = document.querySelector('select[name="attend"]').value;
+  
+    // Determine if the fields should be required or not
+    const isRequired = attendValue === 'attending';
+  
+    // Set the required attribute for each field accordingly
+    document.querySelector('input[name="dietary"]').required = isRequired;
+    document.querySelector('select[name="starter"]').required = isRequired;
+    document.querySelector('select[name="main"]').required = isRequired;
+    document.querySelector('input[name="song"]').required = isRequired;
+  }
 /********************** Extras **********************/
 
 // Google map

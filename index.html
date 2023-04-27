@@ -464,11 +464,26 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
+    <div id="rsvp-modal-not-attending" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                    </button>
+                    <div class="section-padding">
+                        <h3>Submitted</h3>
+                        <p>We wil be sad not to see you.</p>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <h3>RSVP</h3>
-                <p>We would greatly appreciate if you could RSVP before Xth of XXX 2023</p>
+                <p>We would greatly appreciate if you could RSVP before 18th of June 2023</p>
                 <form id="rsvp-form" class="rsvp-form"
                       action=""
                       method="POST">
@@ -538,7 +553,7 @@
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-check-square-o"></i>
-                                <select name="attend" required>
+                                <select name="attend" required onClick="updateForm();">
                                     <option value="attending">I will attend</option>
                                     <option value="not attending">I cannot attend</option>
                                 </select>
