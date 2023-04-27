@@ -59,9 +59,9 @@ TODO:
 - [x] Add full food descriptions
 - [x] Disable mandatory fields if not attending
 - [x] Change pop up for not-attending
-- [ ] Finalise security / captcha
+- [x] Finalise security / captcha
 - [ ] Internal /external testing
 - [x] Display pictures on mobile
-- [ ] Migrate to harveybarkshire.com
+- [x] Migrate to harveybarkshire.com
 - [ ] Get google maps working, remove uber link
 - [ ] Home-assistant, heartbeat monitoring
