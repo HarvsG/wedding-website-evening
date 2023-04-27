@@ -44,7 +44,7 @@ TODO:
 - [ ] Update images with mum's bus and church
 - [x] Main banner to be made a flat colour so you can see the wording? Otherwise picture with more blank space
 - [x] Remove section with when and where/move down the page
-- [ ] In the order of the day section, can we link the addresses so they can open in google maps if needed? 
+- [x] In the order of the day section, can we link the addresses so they can open in google maps if needed? 
 - [x] Dress to be own section rather than pop up
 - [ ] Font and text colour alignment with invitation where possible
 - [x] Remove dessert option from RSVP section, consider adding song suggestion?
