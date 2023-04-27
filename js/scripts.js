@@ -271,6 +271,11 @@ function initMap() {
         position: location,
         map: map
     });
+    var location2 = {lat: 51.485372, lng: -0.134746};
+    var marker2 = new google.maps.Marker({
+        position: location2,
+        map: map
+    });
 }
 
 function initBBSRMap() {
