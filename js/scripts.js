@@ -217,7 +217,9 @@ $(document).ready(function () {
         // TODO - Chnage invitation code, will need to be changed in the google spreadsheet script as well
         const hash = MD5($('#invite_code').val()+'sldfjgsdfgsg');
         if (hash !== '02d64d97155b0bd17bcf99ef103bfc31'
-            && hash !== '369c4c1625e20503f1682119c3edc4b8') {
+            && hash !== '369c4c1625e20503f1682119c3edc4b8'
+            && hash !== '455c937a442a9e99524804fc55e80a8f'
+            && hash !== 'f53bf09b420bb6cf44783defb7f6d5c5') {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
         } else {
             $.post('https://script.google.com/macros/s/AKfycbx2oMuESk5QIHwSqRMzfgi6802LVeG6LlPE9RlTWghqZPnHOqHQzf2Yco_x_e4EDUja/exec', data)
