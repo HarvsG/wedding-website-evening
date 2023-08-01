@@ -234,6 +234,7 @@ $(document).ready(function () {
                         } else {
                             $('#rsvp-modal-not-attending').modal('show');
                         }
+                        $('#rsvp-form')[0].reset();
                     }
                 })
                 .fail(function (data) {
